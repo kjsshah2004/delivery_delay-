@@ -88,6 +88,3 @@ with st.expander("Which factors matter most?"):
         .sort_values(ascending=False)
     )
     st.bar_chart(importance)
-
-with st.expander("Preview dataset"):
-    st.dataframe(df.head(20))
